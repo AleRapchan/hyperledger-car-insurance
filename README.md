@@ -31,6 +31,12 @@ Transitions are actions that change a state machine from one state to another
 - A state can have zero, one or many transitions to other states
 
 ## Identify the roles
+- A role is a position that someone holds in a process ○ User
+  - Administrator ○ Buyer
+  - Seller
+  - Adjudicator
+  - System
+- You may limit who can execute certain transitions based on roles
 
 ## The chaincode
 
