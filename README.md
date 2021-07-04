@@ -39,6 +39,11 @@ Transitions are actions that change a state machine from one state to another
 - You may limit who can execute certain transitions based on roles
 
 ## The chaincode
+### Transitions as chaincode functions
+- The transitions to change the state and state data should be chaincode functions
+- The transition inputs are the function parameters
+- The function can check to see if the inputs change the state data past the threshold to change the state
+- If the threshold is surpassed the function can change the state variable
 
 
 ## Links
