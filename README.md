@@ -1,5 +1,8 @@
 # Hyperledger Car Insurance
 
+![Logo](https://alexandrebarros.com/global/car-insurance/car-insurance.png?alt=hyperledger-car-insurance)
+
+
 ## State machine for a car accident insurance claim
 ### Finite-State Machine
 - Mathematical model of computation
@@ -88,6 +91,24 @@ Rejected(Name) {new State = 0; putState(Name, {State: newState))}
 Approved(Name, Phone) {new State = 3; putState(Name, {State: newState, Phone: Phone))}
 CheckStatus(Name) { return getCurrentState(Name)}
 ```
+
+## Authors
+
+Name  | Git Hub | LinkedIn
+------------- | ------------- | -------------
+Alexandre Rapchan B. Barros  | [@AleRapchan](https://www.github.com/AleRapchan) | [Alexandre-rapchan](https://www.linkedin.com/in/alexandre-rapchan/) |
+Alexei Pancratov |  [@AlexeiPancratov](https://github.com/alexeipancratov) |  Linkedin link |
+Michael Francis Jerome Victor | [@Mike-64](https://github.com/Mike-64)| Linkedin link |
+Dhruvam Patel | [@DhruvamPatel](https://github.com/dhruvampatel)| Linkedin link |
+
+## Support
+
+For support, email blockchain@alexandrebarros.com or join our Slack channel.
+	
+## Revisions
+Date  |  Revision  |  Description  |  Author
+--------  |  --------  |  --------  |  --------	
+15/06/2021  |  0.1  |  First Draft  |  Alexandre Rapchan B. Barros
 
 ## Links
 [Claims Process](http://fsrao.ca/consumers/auto-insurance/after-accident-understanding-claims-process)
