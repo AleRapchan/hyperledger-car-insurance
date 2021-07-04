@@ -29,7 +29,19 @@
 - The data that controls the state can be stored along with it
 
 ### State data
-- States: [“No phone”, “Contract Started”, “Contract Awaiting Approval”, “Phone”]
+- States: [
+  "No Accident",
+  "Accident Reported",
+  "Awaiting Determine Fault",
+  "Revise Fault",
+  "Repair or Refund",
+  "Police",
+  "Accident Benefits Application Package",
+  "MVACF",
+  "Exclusion",
+  "Complaint Officer",
+  "In Dispute",
+];
 - State: 0
 - Name: “”
 - Address: “”
