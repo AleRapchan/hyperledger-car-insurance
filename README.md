@@ -20,6 +20,15 @@
 ## Identifying the state data
 
 ## Identifying the transition functions
+Transitions are actions that change a state machine from one state to another
+- Transitions are triggered by inputs
+  - Clock hits a certain time
+  - User presses a button
+  - Action takes place
+- The transition may have conditions that the inputs need to exceed a threshold to move to another state.
+  - Must get colder than 0c to freeze
+  - Must deposit $50 to no longer have bank account in overdraft
+- A state can have zero, one or many transitions to other states
 
 ## Identify the roles
 
