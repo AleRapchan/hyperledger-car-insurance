@@ -19,6 +19,9 @@
   - Measurement input
 - The state can be read or changed
 
+![Logo](https://alexandrebarros.com/global/car-insurance/insurance.png?alt=hyperledger-state-insurance)
+
+
 
 ## Identifying the State Data
 - For user in Hyperledger Fabric the state can be represented using state data
