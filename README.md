@@ -17,12 +17,20 @@
 - The state can be read or changed
 
 
-## Identifying the state data
+## Identifying the State Data
 - For user in Hyperledger Fabric the state can be represented using state data
 - It's recommended a variable called state
 - The data that controls the state can be stored along with it
 
-## Identifying the transition functions
+### State data
+- States: [“No phone”, “Contract Started”, “Contract Awaiting Approval”, “Phone”]
+- State: 0
+- Name: “”
+- Address: “”
+- Phone number: “”
+- Good Credit: false
+
+## Identifying the Transition Functions
 Transitions are actions that change a state machine from one state to another
 - Transitions are triggered by inputs
   - Clock hits a certain time
@@ -33,19 +41,19 @@ Transitions are actions that change a state machine from one state to another
   - Must deposit $50 to no longer have bank account in overdraft
 - A state can have zero, one or many transitions to other states
 
-## Identify the roles
+## Identify the Roles
 - A role is a position that someone holds in a process 
   - User, Administrator, Buyer, Seller, Adjudicator, System
 - You may limit who can execute certain transitions based on roles
 
-## The chaincode
-### Transitions as chaincode functions
+## The Chaincode
+### Transitions as Chaincode Functions
 - The transitions to change the state and state data should be chaincode functions
 - The transition inputs are the function parameters
 - The function can check to see if the inputs change the state data past the threshold to change the state
 - If the threshold is surpassed the function can change the state variable
 
-### Roles as account
+### Roles as Account
 - An account can be assigned to a role
 - This can be done at the time of enrollment or after the fact by the administrator account for that organization
 
