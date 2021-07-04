@@ -76,6 +76,18 @@ Transitions are actions that change a state machine from one state to another
 - An account can be assigned to a role
 - This can be done at the time of enrollment or after the fact by the administrator account for that organization
 
+### Implementation - psuedo-code
+```JS
+FillInContract(Name, Address) { newState=1; putState(Name , {Address: Address, State:
+newState)) }
+SubmitContract(Name) { newState=2; putState(Name, {State: newState})}
+ReviewContract(Name, Credit, Phone) {putState(Name, {Credit: Credit}) if Address is empty
+Incomplete() else if Credit Approved(Phone) else Rejected()}
+Incomplete(Name) {new State = 1; putState(Name, {State: newState))}
+Rejected(Name) {new State = 0; putState(Name, {State: newState))}
+Approved(Name, Phone) {new State = 3; putState(Name, {State: newState, Phone: Phone))}
+CheckStatus(Name) { return getCurrentState(Name)}
+```
 
 ## Links
 [Claims Process](http://fsrao.ca/consumers/auto-insurance/after-accident-understanding-claims-process)
