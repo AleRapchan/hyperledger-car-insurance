@@ -97,9 +97,6 @@ CheckStatus(Name) { return getCurrentState(Name)}
 Name  | Git Hub | LinkedIn
 ------------- | ------------- | -------------
 Alexandre Rapchan B. Barros  | [@AleRapchan](https://www.github.com/AleRapchan) | [Alexandre-rapchan](https://www.linkedin.com/in/alexandre-rapchan/) |
-Alexei Pancratov |  [@AlexeiPancratov](https://github.com/alexeipancratov) |  Linkedin link |
-Michael Francis Jerome Victor | [@Mike-64](https://github.com/Mike-64)| Linkedin link |
-Dhruvam Patel | [@DhruvamPatel](https://github.com/dhruvampatel)| Linkedin link |
 
 ## Support
 
