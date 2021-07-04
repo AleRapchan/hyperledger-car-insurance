@@ -18,6 +18,9 @@
 
 
 ## Identifying the state data
+- For user in Hyperledger Fabric the state can be represented using state data
+- It's recommended a variable called state
+- The data that controls the state can be stored along with it
 
 ## Identifying the transition functions
 Transitions are actions that change a state machine from one state to another
