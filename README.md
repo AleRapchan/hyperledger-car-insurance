@@ -41,6 +41,16 @@ Transitions are actions that change a state machine from one state to another
   - Must deposit $50 to no longer have bank account in overdraft
 - A state can have zero, one or many transitions to other states
 
+### Transitions
+- FillInContract(Name, Address)
+- SubmitContract(Name)
+- Incomplete(Name)
+- Rejected(Name)
+- Approved(Name, Phone)
+
+### Functions
+- CheckContract(Name, Credit, Phone) ○ CheckStatus(Name)
+
 ## Identify the Roles
 - A role is a position that someone holds in a process 
   - User, Administrator, Buyer, Seller, Adjudicator, System
