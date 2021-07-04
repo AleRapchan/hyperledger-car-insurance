@@ -56,6 +56,15 @@ Transitions are actions that change a state machine from one state to another
   - User, Administrator, Buyer, Seller, Adjudicator, System
 - You may limit who can execute certain transitions based on roles
 
+### Roles
+- FillInContract(Name, Address) - buyer
+- SubmitContract(Name) - sales agent
+- CheckContract(Name, Credit, Phone) - system/manager
+- Incomplete(Name) - system
+- Rejected(Name) - system
+- Approved(Name, Phone) - system
+- CheckStatus(Name) - buyer/sales agent/system/manager
+
 ## The Chaincode
 ### Transitions as Chaincode Functions
 - The transitions to change the state and state data should be chaincode functions
