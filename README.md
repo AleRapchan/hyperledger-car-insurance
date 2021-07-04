@@ -8,6 +8,14 @@
 - Changing a state is called a transition
 - An example of a state machine in use is a traffic light
 
+### States
+- States are used to represent a step in a process
+- The state you are in may be dictated by data
+  - Time in state
+  - Balance of account
+  - Measurement input
+- The state can be read or changed
+
 
 ## Identifying the state data
 
