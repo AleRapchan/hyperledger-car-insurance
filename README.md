@@ -45,6 +45,10 @@ Transitions are actions that change a state machine from one state to another
 - The function can check to see if the inputs change the state data past the threshold to change the state
 - If the threshold is surpassed the function can change the state variable
 
+### Roles as account
+- An account can be assigned to a role
+- This can be done at the time of enrollment or after the fact by the administrator account for that organization
+
 
 ## Links
 [Claims Process](http://fsrao.ca/consumers/auto-insurance/after-accident-understanding-claims-process)
