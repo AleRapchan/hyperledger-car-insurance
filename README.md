@@ -60,6 +60,40 @@ Transitions are actions that change a state machine from one state to another
 - A state can have zero, one or many transitions to other states
 
 ### Transitions
+```JS
+// File Accident Report
+FileAccidentReport();
+
+// Fill in Proof of Loss Form
+FillProofLossForm();
+
+// Determine amount to be covered
+DetermineAmountCovered();
+
+// Agree with Insurance Co
+AgreeWithInsurance();
+
+// Disagree with insurance company
+DisagreeWithInsurance();
+
+// Report that you are victim of a scam or fraud
+ReportFraud();
+
+// Apply for Accident benefits
+ApplyBenefits();
+
+// Make a claim to MVACF
+MakeClaimMVACF();
+
+// Deny Payment
+DenyPayment();
+
+// Still Disagree
+StillDisagree();
+
+// Apply to AABS
+ApplyAABS();
+```
 - FillInContract(Name, Address)
 - SubmitContract(Name)
 - Incomplete(Name)
@@ -67,7 +101,8 @@ Transitions are actions that change a state machine from one state to another
 - Approved(Name, Phone)
 
 ### Functions
-- CheckContract(Name, Credit, Phone) ○ CheckStatus(Name)
+- CheckContract(Name, Credit, Phone) 
+- CheckStatus(Name)
 
 ## Identify the Roles
 - A role is a position that someone holds in a process 
