@@ -126,14 +126,14 @@ ApplyAABS();
 Field  |  Type  |  Description
 -------  |  -------  |  ------- 
 policyNumber  |  String  |  Number of the policy
-claimStatus  |  State || Number  |  Actual status of the process
+claimStatus  |  State or Number  |  Actual status of the process
 carInfo.make  |  String  |  Make of the car
 carInfo.model  |  String  |  Model of the car
 carInfo.year  |  String  |  Year of the car
 carInfo.registration  |  String  |  Registration number of the car
 carInfo.licensePlateNumber  |  String  |  Licence plate number of the car
 driverInfo.name  |  String  |  Name of the driver
-driverInfo.licenseNumber  |  String || null  |  License number of the driver
+driverInfo.licenseNumber  |  String or null  |  License number of the driver
 driverInfo.insuranceCompanyName  |  String  |  Name of driver's insurance company 
 investigationOfficer.name  |  String  |  Name of the officer
 investigationOfficer.badgeNumber  |  String  |  Number of officer's badge
@@ -142,7 +142,7 @@ location  |  String  |  Location of the event
 passengerCount  |  Number  |  Number of passenger
 injuryDetails  |  String  |  Details of the injury
 vehicleDamageDetails  |  String  |  Details of the vehicle's damage
-driverDescriptionOfAccident  |  [String] || null  |  Driver's drecription of the accident
+driverDescriptionOfAccident  |  [String] or null  |  Driver's drecription of the accident
 
 ## Model definition for the asset (Tarun)
 ```JS
