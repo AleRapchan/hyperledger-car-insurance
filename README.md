@@ -124,7 +124,7 @@ ApplyAABS();
 
 ## Possible attributes associated with the Asset (Tarun)
 Field  |  Type  |  Description
--------  |  ------- 
+-------  |  -------  |  ------- 
 policyNumber  |  String  |  Number of the policy
 claimStatus  |  State || Number  |  Actual status of the process
 carInfo.make  |  String  |  Make of the car
