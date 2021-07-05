@@ -125,7 +125,7 @@ ApplyAABS();
 ## Possible attributes associated with the Asset (Tarun)
 Field  |  Type  |  Description
 -------  |  -------  |  ------- 
-policyNumber  |  `String`  |  Number of the policy
+policyNumber  |  String  |  Number of the policy
 claimStatus  |  State or Number  |  Actual status of the process
 carInfo.make  |  String  |  Make of the car
 carInfo.model  |  String  |  Model of the car
@@ -253,9 +253,9 @@ CheckStatus(Name) { return getCurrentState(Name)}
 
 ## Authors
 
-Name  | Git Hub | LinkedIn
+Name  | Git Hub | LinkedIn | Twitter
 ------------- | ------------- | -------------
-Alexandre Rapchan B. Barros  | [@AleRapchan](https://www.github.com/AleRapchan) | [Alexandre-rapchan](https://www.linkedin.com/in/alexandre-rapchan/) |
+Alexandre Rapchan B. Barros  | [@AleRapchan](https://www.github.com/AleRapchan) | [Alexandre-rapchan](https://www.linkedin.com/in/alexandre-rapchan/) | [@rapchan](https://www.twitter.com/rapchan/) 
 
 ## Support
 
@@ -264,7 +264,7 @@ For support, email `blockchain@alexandrebarros.com` or join our Slack channel.
 ## Revisions
 Date  |  Revision  |  Description  |  Author
 --------  |  --------  |  --------  |  --------	
-15/06/2021  |  0.1  |  First Draft  |  Alexandre Rapchan B. Barros
+15/06/2021  |  `0.1`  |  First Draft  |  Alexandre Rapchan B. Barros
 
 ## Links
 - [Financial Services Regulatory Authority of Ontario - Claims Process](http://fsrao.ca/consumers/auto-insurance/after-accident-understanding-claims-process)
