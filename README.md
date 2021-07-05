@@ -144,6 +144,40 @@ injuryDetails  |  String,
 vehicleDamageDetails  |  String,
 driverDescriptionOfAccident  |  [String] || null,
 
+## Model definition for the asset (Tarun)
+```JS
+const insuraceClaimModal = {
+  policyNumber: String,
+  claimStatus: State || Number,
+  carInfo: {
+    make: String,
+    model: String,
+    year: String,
+    registration: String,
+    licensePlateNumber: String,
+  },
+  accidentDetails: {
+    driverInfo: [
+      {
+        name: String,
+        licenseNumber: String || null,
+        insuranceCompanyName: String,
+      },
+    ],
+    investigationOfficer: {
+      name: String,
+      badgeNumber: String,
+    },
+    date: Date,
+    location: String,
+    passengerCount: Number,
+    injuryDetails: String,
+    vehicleDamageDetails: String,
+    driverDescriptionOfAccident: [String] || null,
+  },
+};
+```
+
 
 ## The Chaincode
 ### Transitions as Chaincode Functions
