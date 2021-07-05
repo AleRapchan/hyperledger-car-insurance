@@ -267,5 +267,5 @@ Date  |  Revision  |  Description  |  Author
 15/06/2021  |  0.1  |  First Draft  |  Alexandre Rapchan B. Barros
 
 ## Links
-- [Claims Process](http://fsrao.ca/consumers/auto-insurance/after-accident-understanding-claims-process)
+- [Financial Services Regulatory Authority of Ontario - Claims Process](http://fsrao.ca/consumers/auto-insurance/after-accident-understanding-claims-process)
 - [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/fa/latest/key_concepts.html)
