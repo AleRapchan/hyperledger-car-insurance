@@ -60,6 +60,8 @@ Transitions are actions that change a state machine from one state to another
 - A state can have zero, one or many transitions to other states
 
 ### Transitions
+![Logo](https://alexandrebarros.com/global/car-insurance/transactions.png?alt=hyperledger-state-insurance)
+
 ```JS
 // File Accident Report
 FileAccidentReport();
