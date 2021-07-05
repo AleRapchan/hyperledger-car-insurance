@@ -118,6 +118,33 @@ ApplyAABS();
 - Approved(Name, Phone) - system
 - CheckStatus(Name) - buyer/sales agent/system/manager
 
+
+## Physical Asset in the Network (Tarun)
+- Insurance Claim
+
+## Possible attributes associated with the Asset (Tarun)
+field | type
+-------  |  ------- 
+policyNumber  |  String,
+claimStatus  |  State || Number,
+carInfo.make  |  String,
+carInfo.model  |  String,
+carInfo.year  |  String,
+carInfo.registration  |  String,
+carInfo.licensePlateNumber  |  String,
+driverInfo.name  |  String,
+driverInfo.licenseNumber  |  String || null,
+driverInfo.insuranceCompanyName  |  String,
+investigationOfficer.name  |  String,
+investigationOfficer.badgeNumber  |  String,
+date  |  Date,
+location  |  String,
+passengerCount  |  Number,
+injuryDetails  |  String,
+vehicleDamageDetails  |  String,
+driverDescriptionOfAccident  |  [String] || null,
+
+
 ## The Chaincode
 ### Transitions as Chaincode Functions
 - The transitions to change the state and state data should be chaincode functions
