@@ -178,6 +178,54 @@ const insuraceClaimModal = {
 };
 ```
 
+## Instance Description for the Asset
+```JSON
+{
+  "report": {
+    "policyNumber": "1321312411",
+    "fileDateTime": "2021-04-23T18:25:43.511Z",
+    "dateTime": "2021-04-23T18:25:43.511Z",
+    "location": "Toronto ON",
+    "mandatoryCoverageOnly": false,
+
+    "reportedToPolice": false,
+    "officerName": "",
+    "badgeNumber": "",
+    "registeredOwner": false,
+    "driversName": "Alexandre Barros",
+    "licenceNumber": "54352343265464324523",
+
+    "vehicle": {
+      "make": "BMW",
+      "model": "2021",
+      "year": "2021",
+      "registration": "2425345345234234234021",
+      "licence": "432423423424242342342342021"
+    },
+
+    "passengers": "4",
+    "injuries": "",
+    "damage": "",
+    "description": "",
+
+    "drivers": [
+      {
+        "name": "",
+        "licence": "",
+        "insuranceCompanie": "",
+        "insurancePolicies": ""
+      },
+      {
+        "name": "",
+        "licence": "",
+        "insuranceCompanie": "",
+        "insurancePolicies": ""
+      }
+    ]
+  }
+}
+```
+
 
 ## The Chaincode
 ### Transitions as Chaincode Functions
