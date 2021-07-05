@@ -123,26 +123,26 @@ ApplyAABS();
 - Insurance Claim
 
 ## Possible attributes associated with the Asset (Tarun)
-field | type
+Field  |  Type  |  Description
 -------  |  ------- 
-policyNumber  |  String,
-claimStatus  |  State || Number,
-carInfo.make  |  String,
-carInfo.model  |  String,
-carInfo.year  |  String,
-carInfo.registration  |  String,
-carInfo.licensePlateNumber  |  String,
-driverInfo.name  |  String,
-driverInfo.licenseNumber  |  String || null,
-driverInfo.insuranceCompanyName  |  String,
-investigationOfficer.name  |  String,
-investigationOfficer.badgeNumber  |  String,
-date  |  Date,
-location  |  String,
-passengerCount  |  Number,
-injuryDetails  |  String,
-vehicleDamageDetails  |  String,
-driverDescriptionOfAccident  |  [String] || null,
+policyNumber  |  String  |  Number of the policy
+claimStatus  |  State || Number  |  Actual status of the process
+carInfo.make  |  String  |  Make of the car
+carInfo.model  |  String  |  Model of the car
+carInfo.year  |  String  |  Year of the car
+carInfo.registration  |  String  |  Registration number of the car
+carInfo.licensePlateNumber  |  String  |  Licence plate number of the car
+driverInfo.name  |  String  |  Name of the driver
+driverInfo.licenseNumber  |  String || null  |  License number of the driver
+driverInfo.insuranceCompanyName  |  String  |  Name of driver's insurance company 
+investigationOfficer.name  |  String  |  Name of the officer
+investigationOfficer.badgeNumber  |  String  |  Number of officer's badge
+date  |  Date  |  Date of the event
+location  |  String  |  Location of the event
+passengerCount  |  Number  |  Number of passenger
+injuryDetails  |  String  |  Details of the injury
+vehicleDamageDetails  |  String  |  Details of the vehicle's damage
+driverDescriptionOfAccident  |  [String] || null  |  Driver's drecription of the accident
 
 ## Model definition for the asset (Tarun)
 ```JS
