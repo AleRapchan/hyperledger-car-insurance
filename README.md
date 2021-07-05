@@ -1,6 +1,6 @@
 # Hyperledger Car Insurance
 
-![Logo](https://alexandrebarros.com/global/car-insurance/health-insurance.png?alt=hyperledger-car-insurance)
+![Logo](https://alexandrebarros.com/global/car-insurance/hero-car-insurance.png?alt=hyperledger-car-insurance)
 
 
 ## State machine for a car accident insurance claim
