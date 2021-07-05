@@ -125,7 +125,7 @@ ApplyAABS();
 ## Possible attributes associated with the Asset (Tarun)
 Field  |  Type  |  Description
 -------  |  -------  |  ------- 
-policyNumber  |  String  |  Number of the policy
+policyNumber  |  `String`  |  Number of the policy
 claimStatus  |  State or Number  |  Actual status of the process
 carInfo.make  |  String  |  Make of the car
 carInfo.model  |  String  |  Model of the car
@@ -259,7 +259,7 @@ Alexandre Rapchan B. Barros  | [@AleRapchan](https://www.github.com/AleRapchan) 
 
 ## Support
 
-For support, email (`blockchain@alexandrebarros.com`) or join our Slack channel.
+For support, email `blockchain@alexandrebarros.com` or join our Slack channel.
 	
 ## Revisions
 Date  |  Revision  |  Description  |  Author
