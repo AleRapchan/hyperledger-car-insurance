@@ -269,3 +269,4 @@ Date  |  Revision  |  Description  |  Author
 ## Links
 - [Financial Services Regulatory Authority of Ontario - Claims Process](http://fsrao.ca/consumers/auto-insurance/after-accident-understanding-claims-process)
 - [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/fa/latest/key_concepts.html)
+- [Running and Testing Smart Contracts for Hyperledger Fabric](https://developer.ibm.com/recipes/tutorials/running-and-testing-smart-contracts-for-hyperledger-fabric/)
