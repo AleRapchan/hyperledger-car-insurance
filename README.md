@@ -271,3 +271,4 @@ Date  |  Revision  |  Description  |  Author
 - [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/fa/latest/key_concepts.html)
 - [Smart Contracts and Chaincode](https://hyperledger-fabric.readthedocs.io/en/release-2.2/smartcontract/smartcontract.html)
 - [Running and Testing Smart Contracts for Hyperledger Fabric](https://developer.ibm.com/recipes/tutorials/running-and-testing-smart-contracts-for-hyperledger-fabric/)
+- [Fabric v2.0 - Decentralized Chaincode Lifecycle Management](https://www.youtube.com/watch?v=XvEMDScFU2M&t=5s)
