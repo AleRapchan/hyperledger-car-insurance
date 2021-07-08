@@ -348,6 +348,10 @@ const { NumberTransferContract Mr = require('./contract');
 module. exports.contracts 3 [NumberTransferContract];
 ```
 
+`npm run startDev`
+`./assign-number.js regulator telco1 123`
+`./show-numbers.js regulator`
+
 
 ## Authors
 
