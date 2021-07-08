@@ -252,6 +252,8 @@ CheckStatus(Name) { return getCurrentState(Name)}
 ```
 
 ## Notes
+
+### Setting up ...
 Fabric Shima is a low level API that communicate with Fabric API
 Fabric Contract API is a high level API that abstract some things for you in the chain code. It makes easier for you to work with chaincode and implement your solutions instead of having to deal with the Fabric API itself.
 
@@ -287,6 +289,8 @@ toBuffer() {
 ```
 4. export your class so you can use in other files as well.
 
+### Help Code
+
 Every chaincode can consist in multiple smart contracts.
 We can create a contracte base with some helpful functions to all smart contracts.
 We will import some APIs from Fabric
@@ -318,6 +322,9 @@ module. exports 3 { ContractBase};
 ```
 
 
+### Smart Contract
+
+
 ## Authors
 
 Name  | Git Hub | LinkedIn | Twitter
@@ -341,3 +348,4 @@ Date  |  Revision  |  Description  |  Author
 - [Fabric v2.0 - Decentralized Chaincode Lifecycle Management](https://www.youtube.com/watch?v=XvEMDScFU2M&t=5s)
 - [Bitcoin Bay - Hyperledger Fabric](https://www.youtube.com/watch?v=3OxAnTVkUrA)
 - [Fabric v2.0 - Decentralized Chaincode Lifecycle Management](https://www.youtube.com/watch?v=XvEMDScFU2M&t=69s)
+- [Hyperledger Fabric: Coding the Fabric with Node](https://www.youtube.com/watch?v=wMgWgd-LpVI)
