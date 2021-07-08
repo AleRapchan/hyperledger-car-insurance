@@ -329,6 +329,16 @@ ctx.stub.setEvent()
 
 To know who organization called the code, use `ctx.clientIdentity.getMSPID()`
 
+### Implement Events
+```JS
+module. exports {
+Assigned: 'Assigned'
+TransferConfirmed: 'TransferConfirmed',
+TransferRejected: 'TransferRejected',
+TransferRequested: 'TransferRequested',
+};
+```
+
 
 
 ## Authors
