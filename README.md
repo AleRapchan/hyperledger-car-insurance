@@ -273,3 +273,4 @@ Date  |  Revision  |  Description  |  Author
 - [Running and Testing Smart Contracts for Hyperledger Fabric](https://developer.ibm.com/recipes/tutorials/running-and-testing-smart-contracts-for-hyperledger-fabric/)
 - [Fabric v2.0 - Decentralized Chaincode Lifecycle Management](https://www.youtube.com/watch?v=XvEMDScFU2M&t=5s)
 - [Bitcoin Bay - Hyperledger Fabric](https://www.youtube.com/watch?v=3OxAnTVkUrA)
+- [Fabric v2.0 - Decentralized Chaincode Lifecycle Management](https://www.youtube.com/watch?v=XvEMDScFU2M&t=69s)
