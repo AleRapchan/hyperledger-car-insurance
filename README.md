@@ -391,3 +391,4 @@ Date  |  Revision  |  Description  |  Author
 - [Connect Your Servers From VSC](https://medium.com/@sujaypillai/connect-to-your-remote-servers-from-visual-studio-code-eb5a5875e348)
 - [Yeoman generator for Hyperledger Fabric](https://github.com/AleRapchan/generator-fabric)
 - [Yeoman Scaffolding Tool](https://yeoman.io/)
+- [Log routing for Docker container logs](https://github.com/AleRapchan/logspout)
