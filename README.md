@@ -251,6 +251,43 @@ Approved(Name, Phone) {new State = 3; putState(Name, {State: newState, Phone: Ph
 CheckStatus(Name) { return getCurrentState(Name)}
 ```
 
+## Notes
+Fabric Shima is a low level API that communicate with Fabric API
+Fabric Contract API is a high level API that abstract some things for you in the chain code. It makes easier for you to work with chaincode and implement your solutions instead of having to deal with the Fabric API itself.
+
+```bash
+npm i fabric-shima
+
+npm i fabric-contract-api@1.4.0-snapshot.21 --offline
+```
+
+1. start your chaincode
+Go to package.json and create a start script. You will need to identify yourself and the name of the chaincode.
+You will need the command to start the chaincode and to identify the peer.
+```JS
+"scripts":
+*startDev*: "CORE_CHAINCODE_ID_NAME=numbertransfer: v0 fabric-chaincode-node----peer.address grpc://localhost:7042"
+},
+```
+2. We need a JS to manage the asset's proprety. Construction function.
+3. To right in the World State we need to handle Buffer so we will create some helper methods.
+```JS
+
+static from(bufferJson)
+if (Buffer.isBuffer (buffer0r Json)) {
+	if (!bufferOr ]son. length)-s
+	return;
+buffer0rJson = JSON.parse(buffer0rJson.toString('utf-8'));
+return Object.assign (new PhoneNumber(), bufferOr]son);
+}
+
+toBuffer() {
+	return Buffer. from(JSON.stringify(this));
+}
+```
+4. export your class so you can use in other files as well.
+
+
 ## Authors
 
 Name  | Git Hub | LinkedIn | Twitter
