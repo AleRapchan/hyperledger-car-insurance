@@ -253,6 +253,17 @@ CheckStatus(Name) { return getCurrentState(Name)}
 
 ## Notes
 
+### Steps
+1. Prerequisites
+2. Create a new smart contract project
+3. Understand the smart contract
+4. Package the smart contract
+5. Local Fabric Ops
+6. Install the smart contract
+7. Instantiate the smart contract
+8. Submit and evaluate transactions
+
+
 ### Setting up ...
 Fabric Shima is a low level API that communicate with Fabric API
 Fabric Contract API is a high level API that abstract some things for you in the chain code. It makes easier for you to work with chaincode and implement your solutions instead of having to deal with the Fabric API itself.
