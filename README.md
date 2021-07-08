@@ -287,6 +287,36 @@ toBuffer() {
 ```
 4. export your class so you can use in other files as well.
 
+Every chaincode can consist in multiple smart contracts.
+We can create a contracte base with some helpful functions to all smart contracts.
+We will import some APIs from Fabric
+1. Create a new class that extends the Fabric contract. Those methods will help you to implement your use cases.
+Every method here will be a public method. 
+Javascript doesnt know about public or private methods so hyperledger decide to use a underscore.
+We will need a contractor with a namespace. Namespace group functions for our classe .
+A stub is a Fabric API to communicate with Fabric (getState,putState, compositeKey).
+compositeKey is used cause Fabric store all your date in Word State as key/value.
+Normaly you can interate that if you don't know the key but .
+We will always be using async methods (async/await) cause we'll never know when the data is coming back.
+
+
+```JS
+use strict';
+const { Contract } require('fabric-contract-api'),
+PhoneNumber} require('./phone-number');
+class ContractBase extends Contract
+constructor (namespace) { ... ]
+publicMEthod() { ... }
+_privateMEthod() { ... ]
+_createPhoneNumberCompositeKey(stub, phoneNumber) { ... }
+async _getPhoneNumber(stub, phoneNumber) {... }
+_require(value, name) { ... }
+_toBuffer(obi) { ... }
+_fromBuffer (buffer) ( ... }
+PA
+module. exports 3 { ContractBase};
+```
+
 
 ## Authors
 
