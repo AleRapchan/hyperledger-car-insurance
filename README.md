@@ -339,6 +339,14 @@ TransferRequested: 'TransferRequested',
 };
 ```
 
+### Create the startup file (index.js)
+Remember that contracts is important for Hyperledger.
+
+```JS
+use strict';
+const { NumberTransferContract Mr = require('./contract');
+module. exports.contracts 3 [NumberTransferContract];
+```
 
 
 ## Authors
