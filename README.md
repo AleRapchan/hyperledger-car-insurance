@@ -390,3 +390,4 @@ Date  |  Revision  |  Description  |  Author
 - [Hyperledger Fabric: Coding the Fabric with Node](https://www.youtube.com/watch?v=wMgWgd-LpVI)
 - [Connect Your Servers From VSC](https://medium.com/@sujaypillai/connect-to-your-remote-servers-from-visual-studio-code-eb5a5875e348)
 - [Yeoman generator for Hyperledger Fabric](https://github.com/AleRapchan/generator-fabric)
+- [Yeoman Scaffolding Tool](https://yeoman.io/)
