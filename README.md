@@ -323,6 +323,12 @@ module. exports 3 { ContractBase};
 
 
 ### Smart Contract
+`ctx` is the context of the transaction. Every method will have the same signature and start with ctx to know who called our chaincode so we can react to that.
+Will build events so if something happens in our chaincoide our clinet can react to that.
+ctx.stub.setEvent()
+
+To know who organization called the code, use `ctx.clientIdentity.getMSPID()`
+
 
 
 ## Authors
