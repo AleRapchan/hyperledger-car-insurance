@@ -446,6 +446,7 @@ Date  |  Revision  |  Description  |  Author
 - [Key Concepts of Smart Contracts and Chaincode](https://hyperledger-fabric.readthedocs.io/en/latest/smartcontract/smartcontract.html)
 - [Developing Applications](https://hyperledger-fabric.readthedocs.io/en/latest/developapps/developing_applications.html)
 - [Code Example Tutorial](https://hyperledger-fabric.readthedocs.io/en/latest/tutorial/commercial_paper.html)
+- [Hyperledger Fabric SDK for Node.js](https://hyperledger.github.io/fabric-sdk-node/release-2.2/index.html)
 
 ### Extra
 - [Running and Testing Smart Contracts for Hyperledger Fabric](https://developer.ibm.com/recipes/tutorials/running-and-testing-smart-contracts-for-hyperledger-fabric/)
