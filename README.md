@@ -381,13 +381,22 @@ Date  |  Revision  |  Description  |  Author
 
 ## Links
 - [Financial Services Regulatory Authority of Ontario - Claims Process](http://fsrao.ca/consumers/auto-insurance/after-accident-understanding-claims-process)
-- [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/fa/latest/key_concepts.html)
-- [Smart Contracts and Chaincode](https://hyperledger-fabric.readthedocs.io/en/release-2.2/smartcontract/smartcontract.html)
+- [Hyperledger Fabric Key Concepts](https://hyperledger-fabric.readthedocs.io/fa/latest/key_concepts.html)
+
+### Code
+- [Running Your First a Fabric Application](https://hyperledger-fabric.readthedocs.io/en/latest/write_first_app.html)
+- [Key Concepts of Smart Contracts and Chaincode](https://hyperledger-fabric.readthedocs.io/en/latest/smartcontract/smartcontract.html)
+- [Developing Applications](https://hyperledger-fabric.readthedocs.io/en/latest/developapps/developing_applications.html)
+- [Code Example Tutorial](https://hyperledger-fabric.readthedocs.io/en/latest/tutorial/commercial_paper.html)
+
+### Extra
 - [Running and Testing Smart Contracts for Hyperledger Fabric](https://developer.ibm.com/recipes/tutorials/running-and-testing-smart-contracts-for-hyperledger-fabric/)
 - [Fabric v2.0 - Decentralized Chaincode Lifecycle Management](https://www.youtube.com/watch?v=XvEMDScFU2M&t=5s)
 - [Bitcoin Bay - Hyperledger Fabric](https://www.youtube.com/watch?v=3OxAnTVkUrA)
 - [Fabric v2.0 - Decentralized Chaincode Lifecycle Management](https://www.youtube.com/watch?v=XvEMDScFU2M&t=69s)
 - [Hyperledger Fabric: Coding the Fabric with Node](https://www.youtube.com/watch?v=wMgWgd-LpVI)
+
+### Tools
 - [Connect Your Servers From VSC](https://medium.com/@sujaypillai/connect-to-your-remote-servers-from-visual-studio-code-eb5a5875e348)
 - [Yeoman generator for Hyperledger Fabric](https://github.com/AleRapchan/generator-fabric)
 - [Yeoman Scaffolding Tool](https://yeoman.io/)
