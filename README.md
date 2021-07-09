@@ -254,6 +254,60 @@ Rejected(Name) {new State = 0; putState(Name, {State: newState))}
 Approved(Name, Phone) {new State = 3; putState(Name, {State: newState, Phone: Phone))}
 CheckStatus(Name) { return getCurrentState(Name)}
 ```
+## Module: fabric-network
+
+### Overview
+This module provides a higher level API for interacting with smart contracts, and is the recommended API for client applications to interact with smart contracts deployed to a Hyperledger Fabric blockchain network.
+
+Note that administrative capabilities, such as installing and starting smart contracts, are not currently provided by this API. For only specific advanced usage, the lower level fabric-common API can be used. Access to related fabric-common objects is provided through the fabric-network API objects.
+
+If migrating a client application from an earlier version of the API, consult the migration tutorial for details of potentially breaking changes and recommended actions.
+
+TypeScript definitions are included in this module.
+
+### Getting started
+The entry point used to interact with a Hyperledger Fabric blockchain network is the Gateway class. Once instantiated, this long-living object provides a reusable connection to a peer within the blockchain network, and enables access to any of the blockchain Networks (channels) for which that peer is a member. This in turn provides access to Smart Contracts (chaincode) running within that blockchain network, and to which Transactions can be submitted or queries can be evaluated.
+
+Private data can be submitted to transactions as transient data to prevent it from being recorded on the ledger.
+
+Client applications can initiate actions or business processes in response to chaincode events emitted by smart contract transactions using smart contract event listeners. All updates to the ledger can be observed using block event listeners.
+
+### Example
+```JS
+// Connect to a gateway peer
+const connectionProfileJson = (await fs.promises.readFile(connectionProfileFileName)).toString();
+const connectionProfile = JSON.parse(connectionProfileJson);
+const wallet = await Wallets.newFileSystemWallet(walletDirectoryPath);
+const gatewayOptions: GatewayOptions = {
+    identity: 'user@example.org', // Previously imported identity
+    wallet,
+};
+const gateway = new Gateway();
+await gateway.connect(connectionProfile, gatewayOptions);
+
+try {
+
+    // Obtain the smart contract with which our application wants to interact
+    const network = await gateway.getNetwork(channelName);
+    const contract = network.getContract(chaincodeId);
+
+    // Submit transactions for the smart contract
+    const args = [arg1, arg2];
+    const submitResult = await contract.submitTransaction('transactionName', ...args);
+
+    // Evaluate queries for the smart contract
+    const evalResult = await contract.evaluateTransaction('transactionName', ...args);
+
+    // Create and submit transactions for the smart contract with transient data
+    const transientResult = await contract.createTransaction(transactionName)
+        .setTransient(privateData)
+        .submit(arg1, arg2);
+
+} finally {
+    // Disconnect from the gateway peer when all work for this client identity is complete
+    gateway.disconnect();
+}
+```
 
 ## Notes
 
