@@ -317,6 +317,7 @@ For support, email blockchain@alexandrebarros.com or join our Slack channel.
 Date  |  Revision  |  Description  |  Author
 --------  |  --------  |  --------  |  --------	
 15/06/2021  |  `0.1`  |  First Draft  |  Alexandre Rapchan B. Barros
+10/07/2021  |  `0.2`  |  Final Review  |  Alexandre Rapchan B. Barros
 
 ## Links
 - [Financial Services Regulatory Authority of Ontario - Claims Process](http://fsrao.ca/consumers/auto-insurance/after-accident-understanding-claims-process)
