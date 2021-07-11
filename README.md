@@ -45,10 +45,6 @@
   "In Dispute",
 ];
 - State: 0
-- Name: “”
-- Address: “”
-- Phone number: “”
-- Good Credit: false
 
 ## Identifying the Transition Functions
 Transitions are actions that change a state machine from one state to another
