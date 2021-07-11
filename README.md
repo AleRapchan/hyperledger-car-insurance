@@ -121,10 +121,10 @@ ApplyAABS();
 - CheckStatus(Name) - buyer/sales agent/system/manager
 
 
-## Physical Asset in the Network (Tarun)
+## Physical Asset in the Network
 - Insurance Claim
 
-## Possible attributes associated with the Asset (Tarun)
+## Possible attributes associated with the Asset
 Field  |  Type  |  Description
 -------  |  -------  |  ------- 
 policyNumber  |  String  |  Number of the policy
@@ -146,7 +146,7 @@ injuryDetails  |  String  |  Details of the injury
 vehicleDamageDetails  |  String  |  Details of the vehicle's damage
 driverDescriptionOfAccident  |  [String] or null  |  Driver's drecription of the accident
 
-## Model definition for the asset (Tarun)
+## Model definition for the asset
 ```JS
 const insuraceClaimModal = {
   policyNumber: String,
